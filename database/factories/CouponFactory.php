@@ -3,8 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Coupon;
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CouponFactory extends Factory
 {
@@ -23,9 +23,9 @@ class CouponFactory extends Factory
     public function definition()
     {
         return [
-            'code'          => (string) Str::orderedUuid(),
-            'amount'   => 5,
-            'minimum_amount'    => rand(5, 100),
+            'code'           => (string) Str::orderedUuid(),
+            'amount'         => 5,
+            'minimum_amount' => rand(5, 100),
         ];
     }
 }
