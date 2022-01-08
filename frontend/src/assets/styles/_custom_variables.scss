@@ -1,0 +1,28 @@
+$font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+$font-family-base: 'Ubuntu', sans-serif;
+$font-family-secondary: 'Montserrat', sans-serif;
+$font-family-playfair: 'Playfair Display', serif;
+
+$primary: #eaa79e;
+$primaryLight: #ecbcb3;
+$textColor: #949ea0;
+$error: #f45050;
+
+$buttonBackground: linear-gradient(270deg, $primaryLight, $primary);
+
+$mq-small: 480px;
+$mq-medium: 768px;
+$d-small: 1024px;
+$d-medium: 1240px;
+
+/*===================================
+=            TRANSITIONS            =
+===================================*/
+/// Google Material Design cubic bezier transition
+/// @type Transition
+$transition1: all 0.3s cubic-bezier(0.3, 0, 0.2, 1);
+/// Google Material Design cubic bezier transition slower
+/// @type Transition
+$transition2: all 0.6s cubic-bezier(0.6, 0, 0.2, 1);
+/*=====  End of TRANSITIONS  ======*/

@@ -1,0 +1,4 @@
+<button class="Button" :disabled="loading">
+    <div class="Button__loader" v-if="loading"></div>
+    <span class="Button__text" v-else>{{ buttonText }}</span>
+</button>

@@ -1,0 +1,58 @@
+@import '@/assets/styles/lib';
+
+.product {
+   border: 1px solid #eeeeee;
+   padding: 10px 20px;
+   text-align: center;
+   .product-title {
+      color: #365a6e;
+      font-weight: 600;
+   }
+   .product-img {
+      max-width: 100px;
+      width: 100%;
+      height: 100px;
+      object-fit: contain;
+   }
+   .center {
+      display: flex;
+      align-items: center;
+   }
+   .remove-product {
+      color: #ff2742cb;
+      cursor: pointer;
+   }
+   .quantity {
+      position: relative;
+      input {
+         border: none;
+         border-radius: 100px;
+         padding: 5px;
+         color: #365a6e;
+         font-weight: 700;
+         text-align: center;
+      }
+      .input-shop {
+         background: #8fcf0033;
+      }
+      .input-web {
+         background: #007fcf34;
+      }
+      .minus-btn {
+         cursor: pointer;
+         text-decoration: none;
+         position: absolute;
+         left: 5px;
+         color: #95bace;
+         font-size: 20px;
+      }
+      .plus-btn {
+         cursor: pointer;
+         text-decoration: none;
+         position: absolute;
+         right: 5px;
+         color: #95bace;
+         font-size: 20px;
+      }
+   }
+}

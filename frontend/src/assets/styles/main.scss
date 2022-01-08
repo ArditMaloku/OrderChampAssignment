@@ -1,0 +1,12 @@
+//====================== IMPORTANT NOTE: Do not change import order! =====================//
+
+// Reset styling.
+@import 'reset';
+
+//Include lib. Override bootstrap and declare other variables.
+@import 'lib';
+
+//Import other styles.
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');

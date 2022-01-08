@@ -1,16 +1,44 @@
-.env
-.env.backup
-.php-cs-fixer.cache
-.phpunit.result.cache
-/.idea
-/.vscode
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-docker-compose.override.yml
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
+#BackEnd files
+backend/.env
+backend/.env.backup
+backend/.php-cs-fixer.cache
+backend/.phpunit.result.cache
+backend/.idea
+backend/.vscode
+backend/node_modules
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+backend/vendor
+backend/docker-compose.override.yml
+backend/Homestead.json
+backend/Homestead.yaml
+backend/npm-debug.log
+backend/yarn-error.log
+
+
+#FrontEnd files
+.DS_Store
+frontend/node_modules
+frontend/package-lock.json
+frontend//dist
+
+# local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Editor directories and files
+frontend/.idea
+frontend/.vscode
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?

@@ -1,0 +1,22 @@
+<div class="Cart">
+   <h2 class="Cart__tile">Cart</h2>
+   <hr />
+   <table class="table">
+      <thead>
+         <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr v-for="item in cart.items" :key="item.id">
+            <td>{{ item.product.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.price * item.quantity }}</td>
+         </tr>
+      </tbody>
+   </table>
+   <hr />
+   <p>Total: {{ cart.total }}</p>
+</div>

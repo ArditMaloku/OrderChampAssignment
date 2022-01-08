@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeComponent renders without crashing 1`] = `
+<div class="Home">
+  <hero-component-stub></hero-component-stub>
+  <flowers-layout-stub></flowers-layout-stub>
+</div>
+`;

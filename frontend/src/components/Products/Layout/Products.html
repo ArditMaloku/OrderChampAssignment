@@ -1,0 +1,6 @@
+<div class="Products">
+   <div v-for="product in products" :key="product.id" class="Product">
+      <ProductItem :product="product" />
+   </div>
+</div>
+<div class="Product__message" v-if="!products.length">Not results found! Try different keyword</div>

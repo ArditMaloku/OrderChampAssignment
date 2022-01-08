@@ -1,0 +1,12 @@
+<div class="row product">
+   <div class="col-sm-7 center">
+      <p class="product-title">{{ product.name }}</p>
+   </div>
+   <div class="col-sm-2 quantity-row center">
+      <div class="quantity">
+         <a @click="quantity > 1 && changeQuantity(ChangeQuantityType.DECREASE)" class="minus-btn">-</a>
+         <input disabled class="form-input w-100 input-web" v-model="quantity" />
+         <a @click="product.stock > quantity && changeQuantity(ChangeQuantityType.INCREASE)" class="plus-btn">+</a>
+      </div>
+   </div>
+</div>

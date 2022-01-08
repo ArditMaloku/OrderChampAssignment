@@ -1,0 +1,17 @@
+<div class="Input">
+    <div class="Input__wrapper">
+        <label :for="name" class="Input__label">{{ label }}</label>
+        <input
+            class="Input__field"
+            :name="name"
+            :id="name"
+            :type="type"
+            :value="inputValue"
+            :placeholder="placeholder"
+            @input="handleChange"
+            @blur="handleBlur"
+        />
+    </div>
+
+    <pre class="Input__error" v-if="errorMessage">{{ errorMessage }}</pre>
+</div>

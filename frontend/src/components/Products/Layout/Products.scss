@@ -1,0 +1,30 @@
+@import '@/assets/styles/lib';
+
+.Products {
+   margin-top: 80px;
+   margin-bottom: 80px;
+   display: grid;
+   grid-template-columns: repeat(5, minmax(0, 1fr));
+   grid-gap: 20px;
+   justify-items: center;
+   align-items: center;
+   padding: 0px 15px;
+
+   &__message {
+      width: 100%;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+   }
+
+   @include small-desktop {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+   }
+
+   @include tablet {
+      margin-top: 40px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+   }
+}
